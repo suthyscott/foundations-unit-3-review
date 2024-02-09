@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Peter Piper's Pizzeria</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Peter Piper's Perfect Pizzeria</h1>
+        </header>
+
+        <main>
+            <div id="pizzaDisplay">
+                <section id="pizza1" class="foodItem">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFyODgva2dfesgft6_w26Z_BaHjl29ypEdyA&usqp=CAU"
+                    />
+                    <p>Classic Pepperoni</p>
+                </section>
+                <section id="pizza2" class="foodItem">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjP7OwuFpItJO5YQ9T99HwbutMhn3xhd0S-Q&usqp=CAU"
+                    />
+                    <p>Barbeque Chicken</p>
+                </section>
+                <section id="pizza3" class="foodItem">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJF8ozW17_mZsfQAFYrMD1Mnwr22q1PmUBnQ&usqp=CAU"
+                        alt="hawaiian"
+                    />
+                    <p>Hawaiian</p>
+                </section>
+            </div>
+
+            <form>
+                Suggest a pizza!
+                <input type="text" placeholder="Pizza Name" id="pizza-name"/>
+                <input type="text" placeholder="Pizza Picture" />
+                <input type="submit" />
+            </form>
+        </main>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
